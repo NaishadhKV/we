@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(255, 255, 254);
+}
+
+header{
+    width: 100%;
+    background-color: rgb(48, 77, 163);
+    background-image: linear-gradient(#5317a7 100%);
+    border-bottom: 1px solid rgb(42, 56, 165);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#brand{
+    font-size:250%;
+    align-self:center;
+    font-weight: 700;
+}
+
+main{
+    display: flex;
+}
+
+.section{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#left-title{
+    color: #5317a7;
+}
